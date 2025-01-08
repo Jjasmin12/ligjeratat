@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p2" style="color: red;"></p>
+    <script>
+        var vargu=['Ferizaj','Gjakove','Malisheve','Prishtin','Prizren','Rahovec']
+        var y= vargu.length;
+        var z=''
+        var a= vargu.sort()
+        for(x=0;x<y;x++)
+    {
+         z+=vargu[x]+' eshte '+(x+1)+"<br>"
+        
+    }
+    document.getElementById('p2').innerHTML=z
+    </script>
+<p id="p3" style="color: red;"></p>
+<script>
+    var vargu = ['Ferizaj', 'Gjakove', 'Malisheve', 'Prishtin', 'Prizren', 'Rahovec'];
+    var y = vargu.length;
+    var z = '';
+    var a = vargu.sort().reverse(); // Këtu shtojmë .reverse() për të përmbysur renditjen
+
+    for (x = 0; x < y; y--) 
+    {
+        z += a[y-1] + ' është ' + (y) + "<br>"; // Përdorim 'a' që është e renditur dhe e përmbysur
+    }
+
+    document.getElementById('p3').innerHTML = z;
+</script><br><br>
+    <script>
+        var vargu=['Prishtina','Prizreni','Ferizaj','Gjakova']
+        var y= vargu.length
+        var b=''
+        var c=vargu.sort
+        for(x=0;x<y;x++)
+    {
+      b+=vargu[x] + ' eshte ' + (x+1) +'<br>'
+    }
+    document.write(b)
+    </script>
+</body>
+</html>

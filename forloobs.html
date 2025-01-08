@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(x=0; x<=5; x++)
+    {
+        document.write(x+"<br>")
+    }
+    </script>
+    <script>
+        for(x=1;x<10;x++)
+    {
+        document.write(x+"x6="+x*6+"<br>")
+    }
+    </script>
+    <p id="p1" style="color:red"></p>
+    <script>
+        var para=""
+        for(x=0;x<=5;x++)
+    {
+        para+=x+'<br>'
+    }
+    document.getElementById('p1').innerHTML=para
+    </script>
+    <p id='p2'></p>
+    <script>
+        var vargu=['Shkolla','Digjitale','Przren']
+        var y= vargu.length;
+        var z=''
+        var a= vargu.sort()
+        for(x=0;x<y;x++)
+    {
+        z+=vargu[x]+"<br>"
+    }
+    document.getElementById('p2').innerHTML=z
+    </script>
+    <script>
+        for(x=22;x>10;x--)
+    {
+        document.write(x+'x7='+x*7+"<br>")
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var z =prompt('Vota')
+        function personi(x,y)
+        {
+            this.emri=x;
+            this.mbiemri=y;
+            this.mosha=z
+        }
+        if(z<18)
+          {
+            document.write('Ju nuk mund te votoni')
+           }
+        else
+        {
+            document.write('Ju  mund te votoni'+'<br>')
+        }
+       
+    </script>
+    <br>
+    <script>
+        var a=prompt ('Sa dite ka mosha juaj')
+        function b()
+        {
+            return a*365
+        }
+        document.write(b())
+    </script>
+    <script>
+        var a=prompt ('Sheno numrin')
+        function b()
+        {
+            for(x=1;x<10;x++)
+            {
+                document.write('Shumzimi i numrit '+a+' me '+x+' eshte i barabartme me'+a*x+'<br>')
+            }
+        }
+        document.write(b())
+    </script>
+</body>
+</html>
